@@ -1,0 +1,60 @@
+/*
+Theme Name: IAM Theme
+Author: Brian Cruz
+Description: Custom Wordpress Theme for IAMTema use
+Version: 0.0.1
+*/
+
+/**
+* Global Colors
+* #002E5D Blue
+* #FD5111 Orange
+**/
+
+/*
+* Normalize
+*/
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4, h5, h6 {
+  color: #002E5D;
+}
+
+/*
+* Text Wrap around Images
+*/
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+/*
+* Page Image Header
+*/
+.page-header-image {
+  padding-top: 50px;
+}
+
+/*
+* Full Body Div
+*/
+.full-body-div {
+  height: 100%;
+}
+
+.full-body-div:before,
+.full-body-div:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+
+.full-body-div:after {
+  clear: both;
+}

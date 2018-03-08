@@ -1,0 +1,11 @@
+/*
+* Css when looking at a single post
+*/
+.post-container {
+  padding-top: 100px;
+  margin: 2em;
+}
+
+.post-title, .post-honor {
+  text-align: center;
+}

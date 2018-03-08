@@ -1,0 +1,47 @@
+/*
+* Pages
+*/
+.page-container {
+  padding-top: 80px;
+}
+
+/*
+* Header
+*/
+.page-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 200px;
+}
+
+.page-header-banner {
+  background-color: #002E5D;
+  width: 30%;
+  height: 100%;
+  text-align: center;
+}
+
+.page-header-banner h1 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.page-header-banner p {
+  color: white;
+  padding-top: 20px;
+}
+
+/*
+* Page Body
+*/
+.page-title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.page-body {
+  margin: 2em;
+}

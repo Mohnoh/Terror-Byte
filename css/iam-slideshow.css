@@ -1,0 +1,119 @@
+/**
+* Description:
+* CSS to control style of slideshow found in index.php
+* Resources for the slideshow are found in the "res" folder
+**/
+/*
+* Slideshow Container
+*/
+.slideshow-container {
+  max-width: 1500px;
+  margin: auto;
+  padding-top: 100px;
+}
+
+/*
+* Hide the images by default
+*/
+.slideshow-pic {
+  display: none;
+  z-index: 1;
+}
+
+.slideshow-pic img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/*
+* Next & Previous Buttons
+*/
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  background-color: #7a7a7a;
+  margin: 2em;
+}
+
+/*
+* Position the "next" button to the right
+*/
+.next {
+  right: 0;
+  border-radius: 3px;
+}
+
+/*
+* On hover, add a black background color
+* should be a bit see-through
+*/
+.prev:hover, .next:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+
+/*
+* Caption Text
+*/
+.slideshow-text{
+  color: #f2f2f2;
+  background: rgba(13, 13, 13, 0.8);
+  font-size: 60px;
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  width: 620px;
+  margin-left: -330px;
+  padding: 40px;
+}
+
+/*
+* The bullets
+*/
+.slideshow-bullet{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6 ease;
+}
+
+.slideshow-bullet:hover {
+  background-color: #717171;
+}
+
+/*
+* Fading Animation
+*/
+@keyframes fadeAnimation {
+  0% {opacity: 0}
+  33.333% {opacity: 0.3}
+  66.666% {opacity: 0.6}
+  100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeAnimation {
+  0% {opacity: 0}
+  33.333% {opacity: 0.3}
+  66.666% {opacity: 0.6}
+  100% {opacity: 1}
+}
+
+.fade {
+  -webkit-animation-name: fadeAnimation;
+  -webkit-animation-duration: .5s;
+  animation-name: fadeAnimation;
+  animation-duration: .5s;
+}

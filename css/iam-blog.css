@@ -1,0 +1,93 @@
+.blog-spacer {
+  padding-top: 100px;
+}
+
+/*
+* Blog post card
+*/
+.blog-container {
+  margin: 2em;
+  background-color: #eee;
+  border: 2px solid #002E5D;
+  border-radius: 5px;
+  max-width: 63%;
+  height: 240px;
+}
+
+/*
+* Blog head
+*/
+.blog-head {
+  margin: 1em;
+}
+
+.blog-head h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-title a {
+  color: #002E5D;
+  text-decoration: none;
+}
+
+.blog-title a:hover {
+  text-decoration: underline;
+}
+
+/*
+* Blog body (With thumbnail)
+*/
+.blog-column {
+  float: left;
+}
+
+.left{
+  width: 25%;
+}
+
+.right{
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.blog-body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+* Blog body (Without thumbnail)
+*/
+.blog-body {
+  margin-left: 10px;
+}
+
+/*
+* Blog sidebar
+*/
+.blog-right-sidebar {
+  float: right;
+  margin: 2em;
+  margin-left: -100%;
+  max-width: 413px;
+  width: 29.4118%;
+}
+
+/* The widgets */
+.sidebar-widget {
+  background-color: #eee;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.sidebar-widget li {
+  list-style: none;
+}
+
+.sidebar-widget li a {
+  text-decoration: none;
+}

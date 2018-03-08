@@ -1,0 +1,224 @@
+/*
+* css for the home page (excludes slideshow)
+*/
+.home-content {
+  margin: 2em;
+}
+
+/*
+* Collage Section
+*/
+.home-collage {
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-blend-mode: screen;
+  background-color: gray;
+  height: 1000px;
+}
+
+.home-collage h1 {
+  text-align: center;
+}
+
+.home-collage-box {
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 24px;
+  text-align: center;
+  margin: 10px;
+}
+
+.home-collage-box h3 {
+  margin: 1em;
+  color: white;
+}
+
+/*
+* Each individual collage block
+*/
+
+.collage-left {
+  float: left;
+  margin-left: 100px;
+}
+
+.collage-right {
+  float: right;
+  margin-right: 100px;
+}
+
+.collage1 {
+  height: 400px;
+  width: 350px;
+}
+
+.collage1 h3 {
+  margin-top: 150px;
+}
+
+.collage2 {
+  height: 325px;
+  width: 400px;
+}
+
+.collage2 h3 {
+  margin-top: 100px;
+}
+
+.collage3 {
+  height: 500px;
+  width: 350px;
+}
+
+.collage3 h3 {
+  margin-top: 170px;
+}
+
+.collage4 {
+  height: 475px;
+  width: 400px;
+}
+
+.collage4 h3 {
+  margin-top: 200px;
+}
+
+.collage5 {
+  height: 300px;
+  width: 350px;
+}
+
+.collage5 h3 {
+  margin-top: 70px;
+}
+
+/*
+* Services section
+*/
+.home-service {
+  color: white;
+}
+
+.home-service h3 {
+  text-align: center;
+  color: white;
+}
+
+.home-service ul{
+  display: table;
+  margin: 0 auto;
+}
+
+:not(ul) {
+  text-align: left;
+}
+
+/*
+* Each individual div block
+*/
+#serviceOne {
+  background-color: #002E5D;
+}
+
+#serviceOne:hover {
+  background-color: #004f9e;
+}
+
+#serviceTwo {
+  margin: auto;
+  background-color: #FD5111;
+}
+
+#serviceTwo:hover {
+  background-color: #fd7c26;
+}
+
+#serviceIcon {
+  padding-top: 100px;
+  font-size: 96px;
+  color: white;
+}
+
+/*
+* Constant uses
+*/
+a {
+  text-decoration: none;
+}
+
+.home-container h1 {
+  text-align: center;
+}
+
+.home-row {
+  display: block;
+}
+
+.home-column {
+  display: inline-block;
+  width: 33%;
+}
+
+.home-left {
+  float: left;
+}
+
+.home-right {
+  float: right;
+}
+
+.home-button {
+  height: 450px;
+  width: 460px;
+  text-align: center;
+}
+
+/*
+* "By The Numbers" Section
+*/
+.numbers-title {
+  font-size: 96px;
+  color: #FD5111;
+}
+
+.numbers-subtitle {
+  text-align: center;
+  font-size: 48px;
+}
+
+/*
+* Solutions Section
+*/
+.home-solution {
+  color: white;
+  background-color: #002E5D;
+}
+
+.home-solution h1, .home-solution h3 {
+  color: white;
+  text-align: center;
+}
+
+.home-solution h1 {
+  font-size: 48px;
+}
+
+.home-solution h3 {
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.home-solution:hover {
+  background-color: #004f9e;
+}
+
+#solutionsIcon {
+  font-size: 96px;
+  padding-top: 50px;
+  color: #FD5111;
+}
